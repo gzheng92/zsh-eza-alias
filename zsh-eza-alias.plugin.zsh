@@ -3,7 +3,7 @@ if ! (( $+commands[exa] )); then
   return 1
 fi
 
-alias ls='exa -a --icons --git --group-directories-first --time-style=long-iso'
+alias ls='exa --icons --git --group-directories-first --time-style=long-iso'
 alias lz='exa --icons --git --group-directories-first --time-style=long-iso'
 alias l='ls -lbF'
 alias ll='ls -la'
